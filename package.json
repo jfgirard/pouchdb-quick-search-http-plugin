@@ -1,0 +1,27 @@
+{
+  "name": "pouchdb-quick-search-http-plugin",
+  "version": "0.0.1",
+  "description": "Plugin for PouchDB Quick Search ",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jfgirard/pouchdb-quick-search-http-plugin.git"
+  },
+  "keywords": [
+    "pouch",
+    "pouchdb",
+    "plugin",
+    "seed",
+    "couch",
+    "couchdb"
+  ],
+  "author": "",
+  "license": "Apache",
+  "dependencies": {
+    "lunr": "0.5.4"
+  },
+  "devDependencies": {
+    "pouchdb-quick-search": "jfgirard/pouchdb-quick-search#http_plugin",
+    "pouchdb": ">= 2.2.0"
+  }
+}
